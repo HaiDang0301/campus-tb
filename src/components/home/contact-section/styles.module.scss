@@ -1,0 +1,22 @@
+.wrap{
+  background-image: url("/assets/images/banner-contact.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 400;
+}
+.button{
+  background-image: linear-gradient(to right, #13659d 0%, #dd9933 50%, #13659d 100%);
+  border: none;
+  border-radius: 0px;
+  color: white;
+  padding: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
