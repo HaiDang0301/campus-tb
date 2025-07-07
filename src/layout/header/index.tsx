@@ -4,7 +4,7 @@ import { MainHeader } from "./main-header";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 z-50">
+    <header className="xl:sticky top-0 z-50">
       <TopHeaderSection />
       <MainHeader />
     </header>

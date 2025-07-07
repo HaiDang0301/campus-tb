@@ -1,4 +1,3 @@
-import { AboutUsSection } from "./about-us/about-us";
 import { BannerSection } from "./banner";
 import { BannerListSection } from "./banner-list";
 import { ContactSection } from "./contact-section";
@@ -13,7 +12,6 @@ export const Home = () => {
     <>
       <BannerSection />
       <FeaturedProducts />
-      <AboutUsSection />
       <SaleProductSection />
       <NumberTalk />
       <BannerListSection />

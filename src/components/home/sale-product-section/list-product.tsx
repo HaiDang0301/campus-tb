@@ -14,14 +14,14 @@ const products = [
 
 export const ListProductSection = () => {
   return (
-    <div className="flex flex-col gap-[24px] w-full px-4 flex-2/3">
-      <div className="flex justify-between items-center w-full">
-        <h2 className="text-[20px] font-semibold">Product list 1</h2>
+    <div className="flex flex-col gap-[24px] w-full">
+      <div className="flex justify-between items-center">
+        <h2 className="text-[20px] font-semibold">Danh sách sản phẩm</h2>
         <Button type="primary">Xem thêm</Button>
       </div>
-      <Row gutter={[24, 24]}>
+      <Row gutter={[16, 24]}>
         {products.map((product) => (
-          <Col key={product.id} xs={24} sm={12} md={8}>
+          <Col key={product.id} xs={24} sm={12} md={12} xl={8}>
             <Card hoverable className="p-[10px]">
               <div className="flex gap-[12px] items-start">
                 <div className="relative w-[120px] h-[120px] flex-shrink-0">
