@@ -11,7 +11,7 @@ export const NewSection = () => {
       </h2>
       <Image src={circle} alt="circle" className="my-2" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 w-full max-w-[1200px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 w-full max-w-[1200px]">
         <ArticleCard
           href="https://campusvn.com/con-ke-be-tong-la-gi/"
           image={new1}
@@ -23,6 +23,13 @@ export const NewSection = () => {
           href="https://campusvn.com/keo-dan-gach-da-ngoai-troi-c902/"
           image={new2}
           title="Keo dán gạch đá ngoài trời C902 (Đạt chuẩn C2)"
+          description="Keo dán gạch đá trong nhà/ngoài trời Campus C902 đạt chuẩn C2, phù hợp ốp gạch khổ lớn..."
+        />
+
+        <ArticleCard
+          href="https://campusvn.com/keo-dan-gach-da-ngoai-troi-c902/"
+          image={new2}
+          title="Test 3"
           description="Keo dán gạch đá trong nhà/ngoài trời Campus C902 đạt chuẩn C2, phù hợp ốp gạch khổ lớn..."
         />
       </div>
