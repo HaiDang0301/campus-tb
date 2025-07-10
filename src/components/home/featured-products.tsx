@@ -32,7 +32,7 @@ export const FeaturedProducts = () => {
           >
             <Link href={`/product/${item.slug}`}>
               <Image
-                src={item.image}
+                src={item.images[0]}
                 alt={item.title}
                 width={0}
                 height={0}

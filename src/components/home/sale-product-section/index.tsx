@@ -1,9 +1,9 @@
 import { Row, Col, Card } from "antd";
 import Image, { StaticImageData } from "next/image";
 import { ArrowRightOutlined } from "@ant-design/icons";
-import product2 from "@/../public/assets/images/product.jpg";
-import product3 from "@/../public/assets/images/product1.jpg";
-import product1 from "@/../public/assets/images/product2.jpg";
+import product1 from "@/../public/assets/images/product.jpg";
+import product2 from "@/../public/assets/images/product1.jpg";
+import product3 from "@/../public/assets/images/product2.jpg";
 import product from "@/../public/assets/images/product3.jpg";
 import { LeftItem } from "./left-item-sction";
 import Link from "next/link";
@@ -16,7 +16,7 @@ const categorizedProducts = [
         id: 1,
         name: "Con kê bê tông V2 (20/25mm)",
         image: product,
-        slug: "con-ke-be-tong-v2-20-25mm",
+        slug: "con-ke-be-tong-v1-15-20mm",
       },
       {
         id: 2,
@@ -65,20 +65,20 @@ export const ListProductSection = ({
       <Row gutter={[16, 24]}>
         {products.map((product) => (
           <Col key={product.id} xs={24} sm={12} md={12} xl={8}>
-            <Card hoverable className="p-[10px]">
-              <div className="flex gap-[12px] items-start">
-                <div className="relative w-[120px] h-[120px] flex-shrink-0">
-                  <Image
-                    alt={product.name}
-                    src={product.image}
-                    fill
-                    style={{ objectFit: "cover", borderRadius: 8 }}
-                  />
-                </div>
-                <div className="flex flex-col justify-between gap-[8px]">
-                  <p className="font-medium">{product.name}</p>
-                  <p className="text-[#bf3617] font-bold">Giá: liên hệ</p>
-                  <Link href={`/product/${product.slug}`}>
+            <Link href={`/product/${product.slug}`}>
+              <Card hoverable className="p-[10px]">
+                <div className="flex gap-[12px] items-start">
+                  <div className="relative w-[120px] h-[120px] flex-shrink-0">
+                    <Image
+                      alt={product.name}
+                      src={product.image}
+                      fill
+                      style={{ objectFit: "cover", borderRadius: 8 }}
+                    />
+                  </div>
+                  <div className="flex flex-col justify-between gap-[8px]">
+                    <p className="font-medium">{product.name}</p>
+                    <p className="text-[#bf3617] font-bold">Giá: liên hệ</p>
                     <div className="flex items-center gap-[8px] cursor-pointer justify-end">
                       <p className="text-[#034c8c] font-medium m-0">
                         Xem chi tiết
@@ -87,10 +87,10 @@ export const ListProductSection = ({
                         style={{ color: "#034c8c", fontSize: 12 }}
                       />
                     </div>
-                  </Link>
+                  </div>
                 </div>
-              </div>
-            </Card>
+              </Card>
+            </Link>
           </Col>
         ))}
       </Row>

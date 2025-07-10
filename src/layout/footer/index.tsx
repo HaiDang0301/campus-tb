@@ -182,7 +182,7 @@ export const Footer = () => {
             </div>
             <div className="flex items-center gap-2 text-[#ffb700] text-lg font-semibold hover:text-white transition">
               <PhoneFilled />
-              <span>0965.39.3223</span>
+              <span>0986.453.003</span>
             </div>
             <div>
               <h4 className="font-bold text-[#ffb700] text-lg">
@@ -204,7 +204,7 @@ export const Footer = () => {
           </div>
           <div className="flex items-center gap-2 text-[#ffb700] text-lg font-semibold hover:text-white transition">
             <PhoneFilled />
-            <span>0965.39.3223</span>
+            <span>0986.453.003</span>
           </div>
           <div>
             <h4 className="font-bold text-[#ffb700] text-lg">

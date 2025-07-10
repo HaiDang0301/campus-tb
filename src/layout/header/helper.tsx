@@ -5,22 +5,22 @@ export const MenuItem = [
   },
   {
     label: "Giới thiệu",
-    path: "/gioi-thieu",
+    path: "/#",
   },
   {
     label: "Sản phẩm",
-    path: "/san-pham",
+    path: "/#",
   },
   {
     label: "Dự án",
-    path: "/du-an",
+    path: "/#",
   },
   {
     label: "Tin tức",
-    path: "/tin-tuc",
+    path: "/#",
   },
   {
     label: "Liên hệ",
-    path: "/lien-he",
+    path: "/#",
   },
 ];
