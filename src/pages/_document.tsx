@@ -5,6 +5,18 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body className="antialiased">
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener("contextmenu", function(e) {
+                e.preventDefault();
+              });
+              document.addEventListener("copy", function(e) {
+                e.preventDefault();
+              });
+            `,
+          }}
+        />
         <Main />
         <NextScript />
       </body>
