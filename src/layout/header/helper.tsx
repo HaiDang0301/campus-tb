@@ -4,10 +4,6 @@ export const MenuItem = [
     path: "/",
   },
   {
-    label: "Giới thiệu",
-    path: "/#",
-  },
-  {
     label: "Sản phẩm",
     path: "/#",
   },
@@ -20,7 +16,11 @@ export const MenuItem = [
     path: "/#",
   },
   {
+    label: "Giới thiệu",
+    path: "/about-us",
+  },
+  {
     label: "Liên hệ",
-    path: "/#",
+    path: "/contact-us",
   },
 ];
