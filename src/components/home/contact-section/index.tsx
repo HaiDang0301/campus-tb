@@ -2,6 +2,12 @@ import { Button } from "antd";
 import styles from "./styles.module.scss";
 
 export const ContactSection = () => {
+  const handleScrollToQuote = () => {
+    const quoteSection = document.getElementById("quote");
+    if (quoteSection) {
+      quoteSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div
       className={`${styles["wrap"]} px-4 sm:px-8 py-10 flex flex-col items-center text-center`}
@@ -18,7 +24,10 @@ export const ContactSection = () => {
       <h2 className="text-[#fac100] text-lg sm:text-xl md:text-2xl font-medium my-5">
         Chất lượng hoàn thiện tốt nhất – Hỗ trợ giá nhà máy
       </h2>
-      <Button className={`${styles["button"]} text-base px-6 py-2 rounded`}>
+      <Button
+        className={`${styles["button"]} text-base px-6 py-2 rounded`}
+        onClick={handleScrollToQuote}
+      >
         Yêu cầu báo giá
       </Button>
     </div>

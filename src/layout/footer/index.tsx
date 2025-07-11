@@ -56,17 +56,17 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/gioi-thieu/" className="hover:text-[#13659d]">
+                <Link href="/about-us" className="hover:text-[#13659d]">
                   Giới thiệu
                 </Link>
               </li>
               <li>
-                <Link href="/lien-he/" className="hover:text-[#13659d]">
+                <Link href="/contact-us" className="hover:text-[#13659d]">
                   Liên hệ
                 </Link>
               </li>
               <li>
-                <Link href="/tin-tuc/" className="hover:text-[#13659d]">
+                <Link href="/#" className="hover:text-[#13659d]">
                   Tin tức
                 </Link>
               </li>
@@ -90,38 +90,32 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/mua-hang-va-thanh-toan/"
+                  href="/purchase-and-payment"
                   className="hover:text-[#13659d]"
                 >
                   Mua hàng & Thanh toán
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/chinh-sach-van-chuyen-giao-hang/"
-                  className="hover:text-[#13659d]"
-                >
+                <Link href="/shipping-policy" className="hover:text-[#13659d]">
                   Chính sách vận chuyển
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/chinh-sach-bao-hanh-va-doi-tra/"
+                  href="/warranty-and-returns"
                   className="hover:text-[#13659d]"
                 >
                   Bảo hành & Đổi trả
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/chinh-sach-bao-mat-thong-tin/"
-                  className="hover:text-[#13659d]"
-                >
+                <Link href="/privacy-policy" className="hover:text-[#13659d]">
                   Bảo mật thông tin
                 </Link>
               </li>
               <li>
-                <Link href="/hoi-dap/" className="hover:text-[#13659d]">
+                <Link href="/faq" className="hover:text-[#13659d]">
                   Hỏi đáp
                 </Link>
               </li>
@@ -135,42 +129,34 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/danh-muc-san-pham/song-chan-rac/"
+                  href="/product/con-ke-be-tong-v1-15-20mm"
                   className="hover:text-[#13659d]"
                 >
-                  Song chắn rác
+                  Con kê bê tông V1
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/danh-muc-san-pham/nap-ho-ga/"
+                  href="/product/keo-dan-gach-da-trong-nha-c901"
                   className="hover:text-[#13659d]"
                 >
-                  Nắp hố ga
+                  Keo dán gạch C901
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/danh-muc-san-pham/ghi-bao-ve-goc-cay/"
+                  href="/product/vua-tu-san-phang-campus-leveling-34"
                   className="hover:text-[#13659d]"
                 >
-                  Ghi bảo vệ gốc cây
+                  Vữa tự san phẳng
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/danh-muc-san-pham/tham-thu-ket-hop/"
+                  href="/product/skimcoat-vua-hoan-thien-be-mat"
                   className="hover:text-[#13659d]"
                 >
-                  Thăm thu kết hợp
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/danh-muc-san-pham/bo-via-gang-cau/"
-                  className="hover:text-[#13659d]"
-                >
-                  Bó vỉa gang cầu
+                  Vữa SKIMCOAT
                 </Link>
               </li>
             </ul>
@@ -211,7 +197,7 @@ export const Footer = () => {
               Khiếu nại dịch vụ
             </h4>
           </div>
-          <div className="flex items-center gap-2 text-[#ffb700] text-lg font-semibold hover:text-white transition">
+          <div className="flex items-center gap-2 text-[#ffb700] text-lg font-semibold hover:text-white transitioning">
             <MessageOutlined />
             <span>0707.99.1989</span>
           </div>

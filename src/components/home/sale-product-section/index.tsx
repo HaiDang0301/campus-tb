@@ -27,7 +27,7 @@ const categorizedProducts = [
     ],
   },
   {
-    category: "Keo dán gạch",
+    category: "Keo dán gạch & Vữa tự san phẳng",
     products: [
       {
         id: 3,
@@ -35,11 +35,6 @@ const categorizedProducts = [
         image: product1,
         slug: "keo-dan-gach-da-trong-nha-c901",
       },
-    ],
-  },
-  {
-    category: "Vữa tự san phẳng",
-    products: [
       {
         id: 4,
         name: "Vữa tự san phẳng cao cấp Campus Leveling 34",
