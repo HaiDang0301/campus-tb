@@ -25,7 +25,7 @@ export default function AboutUs() {
       bgPattern: "bg-blue-50",
     },
     {
-      number: "10+",
+      number: "9+",
       label: "Năm kinh nghiệm",
       icon: <CalendarOutlined />,
       color: "from-emerald-500 to-teal-500",
