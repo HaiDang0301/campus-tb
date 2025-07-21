@@ -49,7 +49,10 @@ export const QuoteRequestSection = () => {
   };
 
   return (
-    <section className={classNames(styles.wrap, "py-12 px-4 bg-[#f5f5f5]")}>
+    <section
+      className={classNames(styles.wrap, "py-12 px-4 bg-[#f5f5f5]")}
+      id="quote"
+    >
       <div
         className={classNames(
           styles["form-container"],

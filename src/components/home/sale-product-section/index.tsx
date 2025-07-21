@@ -27,7 +27,7 @@ const categorizedProducts = [
     ],
   },
   {
-    category: "Keo dán gạch",
+    category: "Keo dán gạch & Vữa tự san phẳng",
     products: [
       {
         id: 3,
@@ -35,11 +35,6 @@ const categorizedProducts = [
         image: product1,
         slug: "keo-dan-gach-da-trong-nha-c901",
       },
-    ],
-  },
-  {
-    category: "Vữa tự san phẳng",
-    products: [
       {
         id: 4,
         name: "Vữa tự san phẳng cao cấp Campus Leveling 34",
@@ -64,7 +59,7 @@ export const ListProductSection = ({
     <div className="flex flex-col gap-[24px] w-full">
       <Row gutter={[16, 24]}>
         {products.map((product) => (
-          <Col key={product.id} xs={24} sm={12} md={12} xl={8}>
+          <Col key={product.id} xs={24} sm={12} md={12} xl={12}>
             <Link href={`/product/${product.slug}`}>
               <Card hoverable className="p-[10px]">
                 <div className="flex gap-[12px] items-start">
@@ -100,17 +95,17 @@ export const ListProductSection = ({
 
 export const SaleProductSection = () => {
   return (
-    <div className="mt-[32px] px-4 sm:px-6 md:px-12 lg:px-[80px] xl:px-[100px] flex flex-col gap-[48px]">
+    <div className="mt-[32px] px-4 sm:px-6 md:px-12 lg:px-[80px] xl:px-[170px] flex flex-col gap-[48px]">
       {categorizedProducts.map((section, index) => (
         <Row key={index} gutter={[24, 24]}>
-          <Col xs={24} md={24} xl={6}>
+          <Col xs={24} md={24} xl={7}>
             <LeftItem
               title={section.category}
               description="Uy tín chất lượng"
               color={index % 2 === 0 ? "green" : "blue"}
             />
           </Col>
-          <Col xs={24} md={24} xl={18}>
+          <Col xs={24} md={24} xl={17}>
             <ListProductSection products={section.products} />
           </Col>
         </Row>
