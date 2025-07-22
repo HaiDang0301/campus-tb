@@ -35,11 +35,11 @@ export const Footer = () => {
           <div className="space-y-2 text-sm sm:text-base leading-relaxed">
             <p>
               <strong className="text-[#00B2FF]">Trụ sở:</strong> Thôn Phụng
-              Thượng, xã Vũ An, huyện Kiến Xương, tỉnh Thái Bình
+              Thượng, xã Vũ Quý, tỉnh Hưng Yên
             </p>
             <p>
               <strong className="text-[#00B2FF]">Tổng kho Hà Nội:</strong> Ngõ
-              50 Lê Trọng Tấn, Dương Nội, Hà Đông, Hà Nội
+              50 Lê Trọng Tấn, KĐT Dương Nội - Phường Dương Nội - TP Hà Nội
             </p>
             <p>
               <strong className="text-[#00B2FF]">Tổng kho TP.HCM:</strong>{" "}
@@ -129,36 +129,37 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/product/con-ke-be-tong-v1-15-20mm"
+                  href="#"
                   className="hover:text-[#13659d]"
                 >
-                  Con kê bê tông V1
+                  Keo dán gạch
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/product/keo-dan-gach-da-trong-nha-c901"
+                  href="#"
                   className="hover:text-[#13659d]"
                 >
-                  Keo dán gạch C901
+                  Con kê bê tông
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/product/vua-tu-san-phang-campus-leveling-34"
+                  href="#"
                   className="hover:text-[#13659d]"
                 >
-                  Vữa tự san phẳng
+                  Skimcoat
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/product/skimcoat-vua-hoan-thien-be-mat"
+                  href="#"
                   className="hover:text-[#13659d]"
                 >
-                  Vữa SKIMCOAT
-                </Link>
+                  Vữa tự san phẳng                
+                  </Link>
               </li>
+             
             </ul>
           </div>
           <div className="space-y-4 text-sm sm:text-base block lg:hidden">
@@ -177,7 +178,7 @@ export const Footer = () => {
             </div>
             <div className="flex items-center gap-2 text-[#ffb700] text-lg font-semibold hover:text-white transition">
               <MessageOutlined />
-              <span>0707.99.1989</span>
+              <span>0986.453.003</span>
             </div>
           </div>
         </div>
@@ -186,7 +187,7 @@ export const Footer = () => {
         <div className="space-y-4 text-sm sm:text-base hidden lg:block">
           <div>
             <h4 className="font-bold text-[#ffb700] text-lg">Tư vấn?</h4>
-            <p className="text-gray-300">/ Liên hệ trực tiếp</p>
+            <p className="text-gray-300">Tư vấn miễn phí</p>
           </div>
           <div className="flex items-center gap-2 text-[#ffb700] text-lg font-semibold hover:text-white transition">
             <PhoneFilled />
@@ -199,7 +200,7 @@ export const Footer = () => {
           </div>
           <div className="flex items-center gap-2 text-[#ffb700] text-lg font-semibold hover:text-white transitioning">
             <MessageOutlined />
-            <span>0707.99.1989</span>
+            <span>0986.453.003</span>
           </div>
         </div>
       </div>
