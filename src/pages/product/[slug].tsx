@@ -159,13 +159,13 @@ const ProductDetailPage = () => {
                       <SafetyCertificateOutlined className="text-green-600 w-4 h-4" />
                     }
                     title="Chất lượng tốt"
-                    desc="Đạt tiêu chuẩn TCVN 7899-2008"
+                    desc="Đạt tiêu chuẩn ISO 9001:2015 và BS EN 124:2015"
                     bg="green-100"
                   />
                   <InfoCard
                     icon={<TruckOutlined className="text-blue-600 w-4 h-4" />}
                     title="Giao hàng đảm bảo"
-                    desc="Nhanh - Đúng hẹn - Đúng chất lượng"
+                    desc="Nhanh - Đúng hẹn - Đúng tải trọng"
                     bg="blue-100"
                   />
                   <InfoCard

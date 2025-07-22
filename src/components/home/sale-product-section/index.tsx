@@ -1,10 +1,10 @@
 import { Row, Col, Card } from "antd";
 import Image, { StaticImageData } from "next/image";
 import { ArrowRightOutlined } from "@ant-design/icons";
-import product1 from "@/../public/assets/images/product3.webp";
-import product2 from "@/../public/assets/images/product9.webp";
-import product3 from "@/../public/assets/images/product6.webp";
-import product from "@/../public/assets/images/product.webp";
+import product1 from "@/../public/assets/images/product.jpg";
+import product2 from "@/../public/assets/images/product1.jpg";
+import product3 from "@/../public/assets/images/product2.jpg";
+import product from "@/../public/assets/images/product3.jpg";
 import { LeftItem } from "./left-item-sction";
 import Link from "next/link";
 
@@ -14,9 +14,9 @@ const categorizedProducts = [
     products: [
       {
         id: 1,
-        name: "Con kê bê tông Campus",
+        name: "Con kê bê tông V2 (20/25mm)",
         image: product,
-        slug: "con-ke-be-tong-campus",
+        slug: "con-ke-be-tong-v1-15-20mm",
       },
       {
         id: 2,
@@ -95,11 +95,7 @@ export const ListProductSection = ({
 
 export const SaleProductSection = () => {
   return (
-<<<<<<< Updated upstream
     <div className="mt-[32px] px-4 sm:px-6 md:px-12 lg:px-[80px] xl:px-[170px] flex flex-col gap-[48px]">
-=======
-    <div className="mt-[32px] px-4 sm:px-6 md:px-12 lg:px-[80px] xl:px-[150px] flex flex-col gap-[48px]">
->>>>>>> Stashed changes
       {categorizedProducts.map((section, index) => (
         <Row key={index} gutter={[24, 24]}>
           <Col xs={24} md={24} xl={7}>
